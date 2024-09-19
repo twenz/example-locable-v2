@@ -1,7 +1,5 @@
 
-type Props = {}
-
-const WorkSpace = (props: Props) => {
+const WorkSpace = () => {
   return (
     <div>WorkSpace</div>
   )
