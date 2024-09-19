@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "name": "Park",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 1",
+        "area_sqm": 9616
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.88603453844821,
+          13.90682540918245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 2",
+        "area_sqm": 8842
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.52144628848006,
+          13.856541045634234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 3",
+        "area_sqm": 9384
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.49039587647849,
+          13.710321393175898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 4",
+        "area_sqm": 8105
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.91644923572314,
+          13.637503767376998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 5",
+        "area_sqm": 5564
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.73105973165916,
+          13.842852938670791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 6",
+        "area_sqm": 7289
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.77069162235723,
+          13.861857742140174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 7",
+        "area_sqm": 5655
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.75841745174361,
+          13.945409856867517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 8",
+        "area_sqm": 5078
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.56438314692981,
+          13.81416182054413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 9",
+        "area_sqm": 7220
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.90711435318838,
+          13.720668197885269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 10",
+        "area_sqm": 7093
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.31006432875414,
+          13.78473507186098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 11",
+        "area_sqm": 8798
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.42170055970433,
+          13.778179270533142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Park 12",
+        "area_sqm": 8384
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.62796610155242,
+          13.914903982081627
+        ]
+      }
+    }
+  ]
+}

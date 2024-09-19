@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "name": "Restaurant",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 1",
+        "cuisine": "Japanese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.55687268797503,
+          13.850493532824137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 2",
+        "cuisine": "Thai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.74508332827749,
+          13.919496128628944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 3",
+        "cuisine": "Western"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.38587765239915,
+          13.874246847785672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 4",
+        "cuisine": "Chinese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3847373197174,
+          13.671304780653658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 5",
+        "cuisine": "Western"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.77318133052535,
+          13.634079576240026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 6",
+        "cuisine": "Western"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.35779805280733,
+          13.753595825779001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 7",
+        "cuisine": "Western"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.8123843842989,
+          13.631537632775913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 8",
+        "cuisine": "Thai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.38219664647788,
+          13.610170551056576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 9",
+        "cuisine": "Western"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.94267469096371,
+          13.812506923989096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 10",
+        "cuisine": "Japanese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.69721435127163,
+          13.919991716638139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 11",
+        "cuisine": "Thai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.9375621389152,
+          13.70278745572077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restaurant 12",
+        "cuisine": "Chinese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.81997087208896,
+          13.916212067864029
+        ]
+      }
+    }
+  ]
+}

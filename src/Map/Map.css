@@ -1,0 +1,11 @@
+.loc-map {
+  @apply h-[100%] ;
+}
+.loc-map-sidepanel {
+  @apply absolute pt-8 pb-8 top-0 left-0 ml-4 h-[100vh] ;
+}
+.loc-map-sidepanel-container {
+  @apply bg-white h-[100%] min-w-80;
+}
+
+

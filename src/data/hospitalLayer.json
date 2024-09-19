@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hospital",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 1",
+        "beds": 341
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.44049728796399,
+          13.630339106003603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 2",
+        "beds": 325
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.80109003538315,
+          13.747702468831177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 3",
+        "beds": 474
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.62660273391191,
+          13.70784941576547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 4",
+        "beds": 449
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.41686303847247,
+          13.907934847779508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 5",
+        "beds": 332
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.59516312775905,
+          13.642648445243374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 6",
+        "beds": 476
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.89437405202318,
+          13.701886792422105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 7",
+        "beds": 365
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.41918782729263,
+          13.744255932461767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 8",
+        "beds": 339
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.79718114575945,
+          13.849779211221135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 9",
+        "beds": 325
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.64887987850895,
+          13.949621476302228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 10",
+        "beds": 340
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.93775856619129,
+          13.748474293024776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 11",
+        "beds": 407
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.32246952710159,
+          13.661152696582993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hospital 12",
+        "beds": 313
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.41414019129498,
+          13.922754880565613
+        ]
+      }
+    }
+  ]
+}

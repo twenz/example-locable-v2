@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "name": "ShoppingMall",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 1",
+        "shops": 123
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.79268157861833,
+          13.914502555317243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 2",
+        "shops": 126
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3737430149087,
+          13.653906727001548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 3",
+        "shops": 123
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.75945397162441,
+          13.780024066228945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 4",
+        "shops": 164
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.83711515438493,
+          13.840250950989986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 5",
+        "shops": 113
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.34526528465561,
+          13.895699666695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 6",
+        "shops": 167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.8661814224026,
+          13.730355134361462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 7",
+        "shops": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.50968727901268,
+          13.72569594000677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 8",
+        "shops": 167
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.40322923491347,
+          13.76809125700174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 9",
+        "shops": 136
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.42324281345923,
+          13.830480111869095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 10",
+        "shops": 165
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.79608796027736,
+          13.863151411359095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 11",
+        "shops": 198
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4447051944832,
+          13.845757139075479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall 12",
+        "shops": 117
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3911587332164,
+          13.846739423242575
+        ]
+      }
+    }
+  ]
+}

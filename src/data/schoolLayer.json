@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "name": "School",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 1",
+        "students": 508
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.80087584647828,
+          13.643820398863912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 2",
+        "students": 454
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.8985323057124,
+          13.603302762030351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 3",
+        "students": 402
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.67365507033345,
+          13.842813765396594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 4",
+        "students": 604
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.77747072017706,
+          13.803950495577412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 5",
+        "students": 544
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.79810860775622,
+          13.77295761286576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 6",
+        "students": 422
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.84917604936489,
+          13.612012694824466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 7",
+        "students": 632
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.33528744127159,
+          13.692838543270561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 8",
+        "students": 552
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.40241139052593,
+          13.77775064343227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 9",
+        "students": 670
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.8228473798513,
+          13.648073714815231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 10",
+        "students": 735
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.52008628466837,
+          13.947940646573713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 11",
+        "students": 542
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.80309293648212,
+          13.659781036042402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "School 12",
+        "students": 798
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.52397794261837,
+          13.629403226319525
+        ]
+      }
+    }
+  ]
+}

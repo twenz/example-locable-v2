@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "name": "LandValue",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 1",
+        "value_per_sqm": 36808
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.34370612269967,
+          13.615761776636264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 2",
+        "value_per_sqm": 36767
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.52449257013275,
+          13.600108118630306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 3",
+        "value_per_sqm": 55060
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.64769595617483,
+          13.822106225275082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 4",
+        "value_per_sqm": 31080
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.89381067109292,
+          13.757039025850311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 5",
+        "value_per_sqm": 68091
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.37970582081931,
+          13.923741325972696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 6",
+        "value_per_sqm": 35456
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.87742510945628,
+          13.628690247227441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 7",
+        "value_per_sqm": 77423
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.73631530812321,
+          13.919213094473777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 8",
+        "value_per_sqm": 39689
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.31600344477829,
+          13.724506175077549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 9",
+        "value_per_sqm": 75417
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7590478173622,
+          13.614340402362217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 10",
+        "value_per_sqm": 55764
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.8739363235791,
+          13.7130189306119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 11",
+        "value_per_sqm": 52225
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.62300774181988,
+          13.726938546283831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Plot 12",
+        "value_per_sqm": 58904
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6609897603027,
+          13.709189398869135
+        ]
+      }
+    }
+  ]
+}

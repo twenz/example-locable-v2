@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "name": "Hotel",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 1",
+        "rooms": 351
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.61107032500156,
+          13.696475412438831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 2",
+        "rooms": 270
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.563062880326,
+          13.763481350945586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 3",
+        "rooms": 329
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.48624291143274,
+          13.838662737293033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 4",
+        "rooms": 229
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.38741205952483,
+          13.60073318386438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 5",
+        "rooms": 350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6129556748414,
+          13.622564285598166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 6",
+        "rooms": 337
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.61417613528454,
+          13.786958546763627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 7",
+        "rooms": 209
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.74233592034125,
+          13.67718089765001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 8",
+        "rooms": 356
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.38345406814283,
+          13.67547978938502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 9",
+        "rooms": 371
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.46985895227958,
+          13.708769146180035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 10",
+        "rooms": 317
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.80127111171274,
+          13.949469049052558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 11",
+        "rooms": 331
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3532534559838,
+          13.766299516043036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel 12",
+        "rooms": 255
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.37350150806836,
+          13.697783118203132
+        ]
+      }
+    }
+  ]
+}
