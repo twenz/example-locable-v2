@@ -48,3 +48,7 @@ export default tseslint.config({
   },
 })
 ```
+
+## use pip
+`python -m venv venv`
+`source venv/bin/activate`

@@ -1,4 +1,4 @@
-import Mapbox from "../utils/MapComponent";
+import Mapbox from "../components/MapComponent";
 import './Map.css';
 import SidePanel from './components/SidePanel';
 

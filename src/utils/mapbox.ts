@@ -1,7 +1,8 @@
-import { FeatureCollection } from "geojson"
-import { CircleLayerSpecification, Layer, Map } from 'mapbox-gl'
-import { useMapStore } from "../zustand/mapbox"
-import { LayerType } from "./type"
+import { parse, stringify } from 'flatted';
+import { FeatureCollection } from "geojson";
+import { CircleLayerSpecification, Layer, Map } from 'mapbox-gl';
+import { useMapStore } from "../zustand/mapbox";
+import { LayerType } from "./type";
 
 type GeoJSONS = {
   type: 'geojson',
@@ -13,6 +14,7 @@ type Vector = {
 }
 type CustomSourceType = GeoJSONS | Vector
 
+//#region useMapFunc
 const filterSameSource = (sourceId: string, map: Map) => {
   const sameSourceLayer = map?.getStyle()?.layers.filter(_layer => _layer.source === sourceId) || []
   return sameSourceLayer
@@ -79,5 +81,41 @@ const useMapFunc = () => {
     removeLayer
   }
 }
+//#endregion
 
-export { useMapFunc }
+//#region 
+const getConfigToSave = (map: Map) => {
+  const mapStyle = map.getStyle();
+  const sources = mapStyle?.sources
+  console.log("🚀 ~ getConfigToSave ~ sources:", sources)
+
+
+
+  const mapState = {
+    zoom: map.getZoom(),
+    center: map.getCenter(),
+    bearing: map.getBearing(),
+    pitch: map.getPitch(),
+  };
+  const uiState = {
+    isFullscreen: document.fullscreenElement !== null,
+  };
+
+  // Combine the config
+  const config = {
+    mapStyle,
+    mapState,
+    uiState,
+  };
+
+  // Use flatted to handle circular references
+  return stringify(config);
+}
+
+const setConfig = (config: string) => {
+  return parse(config)
+}
+//#endregion
+
+export { getConfigToSave, setConfig, useMapFunc };
+
