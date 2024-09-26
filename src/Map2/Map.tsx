@@ -8,7 +8,11 @@ import pea1k from '../data/pea1k.json';
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 type Meter = { type: string, value: number }
-
+type PeaProps = {
+  coordinates: Position;
+  kwatt: number;
+  meter: number | undefined;
+}
 const MapCmp = () => {
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
   const [deck, setDeck] = useState<Deck | null>(null);
@@ -68,7 +72,7 @@ const MapCmp = () => {
 
     const _t = true
     if (_t) {
-      const pea1kmeter = pea1k.features.reduce((acc: Meter[], cur, i) => {
+      const pea1kmeter = pea1k.features.reduce((acc: Meter[], cur) => {
         if (!acc.some(e => cur.properties.meter_type.match(e.type))) {
           acc.push({ type: cur.properties.meter_type, value: acc.length })
         }
@@ -82,12 +86,12 @@ const MapCmp = () => {
         }
       })
 
-      const hexagonLayer = new HexagonLayer({
+      const hexagonLayer = new HexagonLayer<PeaProps>({
         id: 'hexagon-layer',
         data: pea1khex, // Replace with your actual dataset
         getPosition: d => d.coordinates,
         getElevationWeight: d => d.kwatt,
-        getColorWeight: d => d.meter,
+        getColorWeight: d => d.meter || 0,
         elevationScale: 50,
         radius: 100,
         elevationRange: [0, 1000],
@@ -121,7 +125,7 @@ const MapCmp = () => {
     if (!object) {
       return null;
     }
-    const pea1kmeter = pea1k.features.reduce((acc: Meter[], cur, i) => {
+    const pea1kmeter = pea1k.features.reduce((acc: Meter[], cur) => {
       if (!acc.some(e => cur.properties.meter_type.match(e.type))) {
         acc.push({ type: cur.properties.meter_type, value: acc.length })
       }
@@ -146,17 +150,3 @@ const MapCmp = () => {
 }
 
 export default MapCmp;
-
-// Utility function to generate random points for Hexagon Layer
-const generateRandomPoints = (numPoints: number) => {
-  const points = [];
-  for (let i = 0; i < numPoints; i++) {
-    points.push({
-      coordinates: [
-        -74.5 + Math.random() * 0.1,
-        40 + Math.random() * 0.1,
-      ],
-    });
-  }
-  return points;
-};

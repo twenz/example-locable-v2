@@ -1,9 +1,9 @@
 import { Button } from 'primereact/button';
-import { getConfigToSave, setConfig } from '../../utils/mapbox';
+import { getConfigToSave } from '../../utils/mapbox';
 import { useMapStore } from '../../zustand/mapbox';
 import AddDataSource from './DataSource';
 import Layer from './Layer';
-import ExamHexLayer from './examHexLayer';
+// import ExamHexLayer from './examHexLayer';
 
 const SidePanel = () => {
   const { map } = useMapStore()
@@ -29,20 +29,20 @@ const SidePanel = () => {
       const mapConfig = getConfigToSave(map)
       console.log("🚀 ~ handleSaveMap ~ mapConfig:", mapConfig)
 
-      const downloadConfig = (config: typeof mapConfig) => {
-        const cfg = setConfig(config)
+      // const downloadConfig = (config: typeof mapConfig) => {
+      //   const cfg = setConfig(config)
 
-        console.log("🚀 ~ downloadConfig ~ config:", config)
-        console.log("🚀 ~ downloadConfig ~ cfg:", cfg)
+      //   console.log("🚀 ~ downloadConfig ~ config:", config)
+      //   console.log("🚀 ~ downloadConfig ~ cfg:", cfg)
 
-        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(config);
-        const downloadAnchorNode = document.createElement('a');
-        downloadAnchorNode.setAttribute("href", dataStr);
-        downloadAnchorNode.setAttribute("download", "mapConfig.json");
-        document.body.appendChild(downloadAnchorNode);
-        downloadAnchorNode.click();
-        downloadAnchorNode.remove();
-      }
+      //   const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(config);
+      //   const downloadAnchorNode = document.createElement('a');
+      //   downloadAnchorNode.setAttribute("href", dataStr);
+      //   downloadAnchorNode.setAttribute("download", "mapConfig.json");
+      //   document.body.appendChild(downloadAnchorNode);
+      //   downloadAnchorNode.click();
+      //   downloadAnchorNode.remove();
+      // }
 
       // downloadConfig(mapConfig)
     }
@@ -112,7 +112,7 @@ const SidePanel = () => {
 
         <Button className='btn-primary' label='Add Mbtile' onClick={handleMbtile} />
         <Button className='btn-primary' label='Add Mbtile 2' onClick={handleMbtile2} />
-        <ExamHexLayer map={map!} />
+        {/* <ExamHexLayer map={map!} /> */}
       </div>
 
     </div>

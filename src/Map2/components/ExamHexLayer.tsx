@@ -1,6 +1,5 @@
 import { HexagonLayer } from '@deck.gl/aggregation-layers';
 import { Position } from '@deck.gl/core';
-import { Map } from 'mapbox-gl';
 import { Button } from 'primereact/button';
 import { useEffect, useState } from 'react';
 import pea1k from '../../data/pea1k.json';
@@ -11,9 +10,8 @@ type PeaProp = {
   kwatt: number;
   meter: string;
 }
-type Props = { map: Map }
 
-const ExamHexLayer = ({ map }: Props) => {
+const ExamHexLayer = () => {
   const { deck } = useDeck()
   const [dataSource, setDataSource] = useState<PeaProp[]>()
   useEffect(() => {

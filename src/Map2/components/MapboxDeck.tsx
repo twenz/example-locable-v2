@@ -1,15 +1,13 @@
 import { Deck } from '@deck.gl/core';
 import mapboxgl from 'mapbox-gl';
 import { useEffect } from "react";
-import pea1k from '../../data/pea1k.json';
 import { useDeck } from '../../zustand/deckgl';
 import { useMapStore } from '../../zustand/mapbox';
 
-type Props = {}
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 
-const MapboxDeck = (props: Props) => {
+const MapboxDeck = () => {
   const { setMap, lat, lng } = useMapStore()
   const { setDeck } = useDeck()
   useEffect(() => {
@@ -21,13 +19,13 @@ const MapboxDeck = (props: Props) => {
     })
     setMap(map)
 
-    const pea1khex = pea1k.features.map(e => {
-      return {
-        position: e.geometry.coordinates as Position,
-        kwatt: e.properties.kwatt_hours,
-        meter: e.properties.meter_type
-      }
-    })
+    // const pea1khex = pea1k.features.map(e => {
+    //   return {
+    //     position: e.geometry.coordinates as Position,
+    //     kwatt: e.properties.kwatt_hours,
+    //     meter: e.properties.meter_type
+    //   }
+    // })
     const deck = new Deck({
       canvas: 'deck-canvas',
       width: window.innerWidth,
