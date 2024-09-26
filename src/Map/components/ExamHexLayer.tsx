@@ -3,7 +3,7 @@ import { Position } from '@deck.gl/core';
 import { Map } from 'mapbox-gl';
 import { Button } from 'primereact/button';
 import { useEffect, useState } from 'react';
-import pea1k from '../../data/pea1k.json' assert { type: 'json' };
+import * as pea1k from '../../data/pea1k.json' assert { type: 'json' };
 import { CustomGeojson } from '../../utils/type';
 import { useDeck } from '../../zustand/deckgl';
 
