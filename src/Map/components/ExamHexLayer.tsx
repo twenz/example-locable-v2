@@ -4,6 +4,7 @@ import { Map } from 'mapbox-gl';
 import { Button } from 'primereact/button';
 import { useEffect, useState } from 'react';
 import pea1k from '../../data/pea1k.json' assert { type: 'json' };
+import { CustomGeojson } from '../../utils/type';
 import { useDeck } from '../../zustand/deckgl';
 
 type PeaProp = {
@@ -17,14 +18,14 @@ const ExamHexLayer = ({ map }: Props) => {
   const { deck } = useDeck()
   const [dataSource, setDataSource] = useState<PeaProp[]>()
   useEffect(() => {
-    const pea1khex = pea1k.features.map(e => {
+    const pea1khex = pea1k.features.map((e: CustomGeojson) => {
       return {
         position: e.geometry.coordinates as Position,
         kwatt: e.properties.kwatt_hours,
         meter: e.properties.meter_type
       }
     })
-    setDataSource(pea1khex)
+    setDataSource(pea1khex as PeaProp[])
   }, [])
 
   useEffect(() => {
