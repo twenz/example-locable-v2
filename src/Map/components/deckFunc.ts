@@ -1,7 +1,7 @@
 import { HexagonLayer } from "@deck.gl/aggregation-layers";
 import { Deck, Position } from "@deck.gl/core";
 import { Map } from "mapbox-gl";
-import pea1k from '../../data/pea1k.json';
+import pea1k from '../../data/pea1k.json' assert { type: 'json' };
 
 type PeaProp = {
   position: Position;
